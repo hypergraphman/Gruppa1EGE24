@@ -11,6 +11,6 @@ def is_prime(n):
     return len(divs(n)) == 2
 
 
-for n in range(1, 10):
+for n in range(1, 100):
     if is_prime(103 + n * 7):
         print(n, 103 + n * 7)
