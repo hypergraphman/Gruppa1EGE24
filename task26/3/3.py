@@ -1,6 +1,6 @@
 from math import ceil
 
-# f = open('test.txt')
+# f = open('test.txt.txt')
 f = open('26.txt')
 f.readline()
 a = [int(x) for x in f.readlines()]
